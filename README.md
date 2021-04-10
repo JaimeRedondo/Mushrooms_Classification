@@ -6,9 +6,7 @@ There are many species of mushrooms in our environment, they are located in diff
 
 Classify the different mushrooms of Guadalajara by images.
 
-# Raw Data Description
-
-## How to get the data and run the code
+# How to get the data and run the code
 
 We will briefly explain what it consists of and how the dataset used for the project has been constructed.
 
