@@ -4,7 +4,7 @@ There are many species of mushrooms in our environment, they are located in diff
 
 # Objective
 
-Classify the different mushrooms of Guadalajara by images.
+Classify the different mushrooms of Guadalajara by images, the code is made so that it can be done for 540 mushrooms from all the regions of spain. .
 
 # How to get the data and run the code
 
