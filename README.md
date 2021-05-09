@@ -22,7 +22,7 @@ In addition, a Front-End has been created using Streamlit, where you put a photo
 
 And with that we finished this manual to play with this project!
 
-Welcome and enjoy the project!
+Welcome and enjoy the project!!
 
 ## For this project is needed
 
