@@ -24,9 +24,12 @@ And with that we finished this manual to play with this project!
 
 Welcome and enjoy the project!
 
-# For this project is needed
+## For this project is needed
 
 Jupyter notebook 
+
 Google Colab
+
 ZipFile ngrok-stable-linux-amd64.zip to use ngrok and run Streamlit (you will have on the repo)
+
 Libraries and dependencies run on notebooks 
