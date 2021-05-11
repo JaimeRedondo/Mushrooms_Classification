@@ -14,7 +14,7 @@ The dataset used for the project consists of 60 images of each of the most inter
 
 The script Scraping_Mushrooms.ipynb is in the repo and you can download, after this you can run it from the main script (Mushrooms_Classification.ipynb) in the section ("Getting the data") when it ask you if you want to "Scrape_Mushrooms" or "Use_data". You will choose between scraping the mushrooms for your own with the parameters that we specified in the paragraph above (Guadalajara or All regions, path to save the photos, number of photos per mushroom) or, on the other hand, if you choose Use_data option you will have access to your files to download the data (Drive that I have).
 
-*As a reminder, the project is designed to do with mushrooms of Guadalajara and 60 images per mushroom, as the Dataset in Drive.*
+**As a reminder, the project is designed to do with mushrooms of Guadalajara and 60 images per mushroom, as the Dataset in Drive.**
 
 Then we continue running the code Mushrooms_Classification.ipynb to obtain new images, a technique to increase the number of images for each mushroom called Data Augmentation, and to train the neural network that will allow us to classify the images of each mushroom among the different types that exist.
 
