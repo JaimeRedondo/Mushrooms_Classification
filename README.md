@@ -8,7 +8,7 @@ Classify mushrooms, you can choose between All Regions and only Guadalajara Regi
 
 # How to get the data and run the code
 
-in the repo are different folders, Documentation (with TFM Memory), Dataset (with the dataset of 60 images per mushroom we used for the project), Packages (with Packages necessary to run the code) and Scripts (with the main script Mushrooms_Classification and also the code in Jupyter notebook Scraping_Mushrooms (code we use to get the data) , and also the app.py that is the code used for generate the Streamlit app in google colab).
+in the repo are different folders, Documentation (with TFM Memory), Packages (with Packages necessary to run the code) and Scripts (with the main script Mushrooms_Classification and also the code in Jupyter notebook Scraping_Mushrooms (code we use to get the data) , and also the app.py that is the code used for generate the Streamlit app in google colab).
 
 We will briefly explain what it consists of and how the dataset used for the project has been constructed.
 
