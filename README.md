@@ -1,10 +1,10 @@
 # Mushrooms Classification
 
-There are many species of mushrooms in our environment, they are located in different wooded areas of our planet. It is said that one of the countries with more richness of mushrooms is our country, Spain. In this country, there is a great deal of diversity, the purpose of this project is to study the mushrooms of one of the provinces where this biodiversity is most evident, Guadalajara. This project consists of identifying images of mushrooms from Guadalajara by applying Deep Learning, more specifically convolutional neural networks, specialised in image processing.
+There are many species of mushrooms located in different areas of our planet. In fact, it is said that one of the countries with more variety of mushrooms is our country, Spain. The purpose of this project is to study the mushrooms of one of the provinces where this biodiversity is most evident, Guadalajara. This project consists of identifying images of mushrooms from Guadalajara by applying Deep Learning, more specifically convolutional neural networks, specialised in image processing.
 
 # Objective
 
-Classify mushrooms, you can choose between All regions and only Guadalajara region as we will explain later. In our case, the dataset used is 60 images per mushroom from Guadalajara Region (almost 50 types of mushrooms).
+The aim of this project is to classify different mushrooms. You have the possibility of choosing between All regions and only Guadalajara depending on your interest. The results for this project have been obtained made with a dataset with 60 images per mushroom from Guadalajara region (almost 50 types of mushrooms).
 
 # How to get the data and run the code
 
@@ -20,9 +20,9 @@ The script Scraping_Mushrooms.ipynb is in the repo can be downloaded, after this
 
 Then, we continue running the code Mushrooms_Classification.ipynb to obtain new images (with Data Augmentation) and to train the neural network that will allow us to classify the images of each mushroom among the different types that exist.
 
-After this, we will test the neural network, and later we choose a photo from the internet and give the trained neural network a photo , this photo will have 3 possible mushrooms as a response with a certain percentage each from highest to lowest on which mushrooms they can be.
+After this, we will test the neural network. Later, we will choose a photo from the internet and give it to the trained neural network, this photo will have 3 possible mushrooms as a response with a certain percentage each from highest to lowest on which mushrooms they can be.
 
-In addition, a Front-End has been created using Streamlit, where you put a photo and automatically you wlll have the 3 mushrooms more similar to that photo with a graphic and its probabilities of being the mushroom given. 5 photos of the mushroom with the highest percentage probability of being the given photo will also be displayed.
+In addition, a Front-End has been created using Streamlit. In order to use this app you should to upload a photo of the mushrooms you want to classify. After that, you will have the 3 more similar mushrooms to that photo with a graphic and its probabilities of being the mushroom given. 8 photos of the mushroom with the highest percentage probability of being the given photo will also be displayed.
 
 To run the app you need to execute the code, but if you want to run directly the app, in the repo you can find the files used in the app (the model (with the SGD optimizer) and the CSV with the mushrooms_labels).
 
