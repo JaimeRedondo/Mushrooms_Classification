@@ -24,6 +24,8 @@ After this we will test the neural network, and later we choose a photo from int
 
 In addition, a Front-End has been created using Streamlit, where you put a photo and automatically you wlll have the 3 mushrooms more similar to that photo with a graphic and its probabilities of being the mushroom given. 5 photos of the mushroom with the highest percentage probability of being the given photo will also be displayed.
 
+For run the app you need to run the code, but if you want to run directly the app (try in colab) in the repo also I had the elements used in the app (the model , with the SGD optimizer, and a csv with the mushrooms_labels)
+
 And with that we finished this readme to play with this project!
 
 Welcome and enjoy the project!!
