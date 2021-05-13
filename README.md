@@ -4,7 +4,7 @@ There are many species of mushrooms located in different areas of our planet. In
 
 # Objective
 
-The aim of this project is to classify different mushrooms. You have the possibility of choosing between All regions and only Guadalajara depending on your interest. The results for this project have been obtained made with a dataset with 60 images per mushroom from Guadalajara region (almost 50 types of mushrooms).
+The aim of this project is to classify different mushrooms. You have the possibility of choosing between All regions and only Guadalajara depending on your interest. The results for this project have been obtained with a dataset with 60 images per mushroom from Guadalajara region (almost 50 types of mushrooms).
 
 # How to get the data and run the code
 
