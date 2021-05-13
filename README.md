@@ -1,32 +1,30 @@
 # Mushrooms Classification
 
-There are many species of mushrooms in our environment, they are located in different wooded areas of our planet. One of the countries with more richness of mushrooms is our country, Spain. In this country there is a great deal of diversity, and we are going to study the mushrooms of one of the provinces where this biodiversity is most evident, Guadalajara. This project consists of identifying images of mushrooms from Guadalajara by applying Deep Learning, more specifically convolutional neural networks, specialised in image processing.
+There are many species of mushrooms in our environment, they are located in different wooded areas of our planet. It is said that one of the countries with more richness of mushrooms is our country, Spain. In this country, there is a great deal of diversity, the purpose of this project is to study the mushrooms of one of the provinces where this biodiversity is most evident, Guadalajara. This project consists of identifying images of mushrooms from Guadalajara by applying Deep Learning, more specifically convolutional neural networks, specialised in image processing.
 
 # Objective
 
-Classify mushrooms, you can choose between All Regions and only Guadalajara Regions as we will explain later. In our case, the dataset used is 60 images per mushrooms from Guadalajara Region (almost 50 mushrooms).
+Classify mushrooms, you can choose between All regions and only Guadalajara region as we will explain later. In our case, the dataset used is 60 images per mushroom from Guadalajara Region (almost 50 types of mushrooms).
 
 # How to get the data and run the code
 
-in the repo are different folders, Documentation (with TFM Memory), Packages (with Packages necessary to run the code) and Scripts (with the main script Mushrooms_Classification and also the code in Jupyter notebook Scraping_Mushrooms (code we use to get the data) , and also the app.py that is the code used for generate the Streamlit app in google colab).
+The repo contains different folders, Documentation (with TFM Memory), Packages (with Packages necessary to run the code) and Scripts (with the main script Mushrooms_Classification and also the code in Jupyter notebook Scraping_Mushrooms (code we use to get the data) , and also the app.py that is the code used for generating the Streamlit app in google colab).
 
 We will briefly explain what it consists of and how the dataset used for the project has been constructed.
 
-The dataset used for the project consists of 60 images of each of the most interesting mushroom species found in Guadalajara according to the page https://www.amivall.com/documentos/epmguadalajara.pdf, if you don´t want to use this dataset, these images can be scraped with the code (Scraping_Mushrooms.ipynb) where you can choose if you want Guadalajara Mushrooms or All regions in Spain (if you choose All regions in Spain you need later to change parameters in the neural network, the neural network is designed to classify Guadalajara Mushrooms (60 images per mushroom) if you choose All Regions, or more photos, or whatever , you need to design also a neural network that works to that problem). Also you will choose the number of photos per mushroom you want and where you want to save it (you will need to specify a route to save the images), if you choose Default as the route, then, you will choose your current path. For the execution of the project we have chosen 60 photos per mushroom of the mushrooms of Guadalajara. 
+The dataset used for the project consists of 60 images of each of the most interesting mushroom species found in Guadalajara according to the page https://www.amivall.com/documentos/epmguadalajara.pdf, if you do not want to use this dataset, these images can be scraped with the code (Scraping_Mushrooms.ipynb) where you can choose if you want Guadalajara Mushrooms or All regions in Spain (if you choose All regions in Spain you need later to change parameters in the neural network, the neural network is designed to classify Guadalajara Mushrooms (60 images per mushroom), if you choose All regions, or more photos, or whatever, you need to design moreover a neural network that works to that problem). Also you will choose the number of photos per mushroom you want and where you want to save it (you will need to specify a route to save the images), if you choose Default as the route, then, you will choose your current path. For the execution of the project, we have chosen 60 photos per mushroom of the mushrooms of Guadalajara. 
 
-The script Scraping_Mushrooms.ipynb is in the repo and you can download, after this you can run it from the main script (Mushrooms_Classification.ipynb) in the section ("Getting the data") when it ask you if you want to "Scrape_Mushrooms" or "Use_data". You will choose between scraping the mushrooms for your own with the parameters that we specified in the paragraph above (Guadalajara or All regions, path to save the photos, number of photos per mushroom) or, on the other hand, if you choose Use_data option you will have access to your files to download the data (Drive that I have).
+The script Scraping_Mushrooms.ipynb is in the repo can be downloaded, after this, you can run it from the main script (Mushrooms_Classification.ipynb) in the section ("Getting the data") when it asks you if you want to "Scrape_Mushrooms" or "Use_data". You will choose between scraping the mushrooms for your own with the parameters that we specified in the paragraph above (Guadalajara or All regions, path to save the photos, number of photos per mushroom) or, on the other hand, if you choose Use_data option you will have access to your files to download the data (in Drive).
 
 **As a reminder, the project is designed to do with mushrooms of Guadalajara and 60 images per mushroom, as the Dataset in Drive.**
 
-Then we continue running the code Mushrooms_Classification.ipynb to obtain new images, a technique to increase the number of images for each mushroom called Data Augmentation, and to train the neural network that will allow us to classify the images of each mushroom among the different types that exist.
+Then, we continue running the code Mushrooms_Classification.ipynb to obtain new images (with Data Augmentation) and to train the neural network that will allow us to classify the images of each mushroom among the different types that exist.
 
-After this we will test the neural network, and later we choose a photo from internet and give the network trained a photo , this photo will have 3 possible mushrooms as a response with a certain percentage each from highest to lowest on which mushrooms they can be.
+After this, we will test the neural network, and later we choose a photo from the internet and give the trained neural network a photo , this photo will have 3 possible mushrooms as a response with a certain percentage each from highest to lowest on which mushrooms they can be.
 
 In addition, a Front-End has been created using Streamlit, where you put a photo and automatically you wlll have the 3 mushrooms more similar to that photo with a graphic and its probabilities of being the mushroom given. 5 photos of the mushroom with the highest percentage probability of being the given photo will also be displayed.
 
-For run the app you need to run the code, but if you want to run directly the app (try in colab) in the repo also I had the elements used in the app (the model , with the SGD optimizer, and a csv with the mushrooms_labels)
-
-And with that we finished this readme to play with this project!
+To run the app you need to execute the code, but if you want to run directly the app, in the repo you can find the files used in the app (the model (with the SGD optimizer) and the CSV with the mushrooms_labels).
 
 Welcome and enjoy the project!!
 
