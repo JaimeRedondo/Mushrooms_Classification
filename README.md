@@ -8,6 +8,8 @@ Classify mushrooms, you can choose between All Regions and only Guadalajara Regi
 
 # How to get the data and run the code
 
+in the repo are different folders, Documentation (with TFM Memory), Dataset (with the dataset of 60 images per mushroom we used for the project), Packages (with Packages necessary to run the code) and Scripts (with the main script Mushrooms_Classification and also the code in Jupyter notebook Scraping_Mushrooms (code we use to get the data) , and also the app.py that is the code used for generate the Streamlit app in google colab).
+
 We will briefly explain what it consists of and how the dataset used for the project has been constructed.
 
 The dataset used for the project consists of 60 images of each of the most interesting mushroom species found in Guadalajara according to the page https://www.amivall.com/documentos/epmguadalajara.pdf, if you don´t want to use this dataset, these images can be scraped with the code (Scraping_Mushrooms.ipynb) where you can choose if you want Guadalajara Mushrooms or All regions in Spain (if you choose All regions in Spain you need later to change parameters in the neural network, the neural network is designed to classify Guadalajara Mushrooms (60 images per mushroom) if you choose All Regions, or more photos, or whatever , you need to design also a neural network that works to that problem). Also you will choose the number of photos per mushroom you want and where you want to save it (you will need to specify a route to save the images), if you choose Default as the route, then, you will choose your current path. For the execution of the project we have chosen 60 photos per mushroom of the mushrooms of Guadalajara. 
