@@ -1,1 +1,9 @@
+## For this project is needed
 
+Jupyter notebook 
+
+Google Colab
+
+ZipFile ngrok-stable-linux-amd64.zip to use ngrok and run Streamlit (you will have on the repo)
+
+Libraries and dependencies run on notebooks 
