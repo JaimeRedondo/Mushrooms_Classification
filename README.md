@@ -27,13 +27,3 @@ In addition, a Front-End has been created using Streamlit. In order to use this 
 To run the app you need to execute the code, but if you want to run directly the app, in the repo you can find the files used in the app (the model (with the SGD optimizer) and the CSV with the mushrooms_labels).
 
 Welcome and enjoy the project!!
-
-## For this project is needed
-
-Jupyter notebook 
-
-Google Colab
-
-ZipFile ngrok-stable-linux-amd64.zip to use ngrok and run Streamlit (you will have on the repo)
-
-Libraries and dependencies run on notebooks 
