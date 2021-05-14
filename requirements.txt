@@ -1,6 +1,6 @@
-## For this project is needed
+###### For this project is neccessary ######
 
-Jupyter notebook 
+Jupyter notebook (Python 3)
 
 Google Colab
 
